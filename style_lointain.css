@@ -1,0 +1,11 @@
+/* 
+Feuille de style de démonstration
+*/
+
+.root
+{
+    -fx-font-size: 30pt;
+    -fx-font-family: "Courier New";
+    -fx-base: rgb(127, 127, 127);
+    -fx-background: rgb(212, 212, 212);
+}
