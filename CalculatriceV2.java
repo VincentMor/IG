@@ -82,6 +82,9 @@ public class CalculatriceV2 extends Application {
     Scene_Principale.addEventHandler(ActionEvent.ACTION, new EventHandler<ActionEvent>() {
       public void handle(ActionEvent Evenement) {
         Button targget = (Button) Evenement.getTarget();
+        if(Message.getText()=="Calcul Incorrect"){
+          Message.setText("");
+        }
         if (targget == toucheE) {
           Message.setText("");
         } else if (targget == toucheEgale) {
