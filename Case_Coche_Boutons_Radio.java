@@ -9,9 +9,9 @@ import  javafx.event.*;
 public class Case_Coche_Boutons_Radio extends Application
 {
 public static void main(String [] Arguments)
-  {
+{
   launch(Arguments);
-  }
+}
 
 public void start (Stage Plateau)
   {
