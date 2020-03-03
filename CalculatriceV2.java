@@ -15,7 +15,7 @@ public class CalculatriceV2 extends Application {
   }
 
   public void start(Stage Plateau) {
-    Plateau.setTitle("Calculatrice");
+    Plateau.setTitle("CalculatriceV2");
 
     FlowPane Agencement = new FlowPane(Orientation.VERTICAL, 10, 10);
     Agencement.setAlignment(Pos.CENTER);
