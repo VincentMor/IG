@@ -3,13 +3,10 @@ import javafx.application.*;
 import javafx.scene.*;
 import javafx.stage.*;
 import javafx.scene.layout.*;
-import javafx.scene.text.TextAlignment;
 import javafx.scene.control.*;
 import javafx.geometry.*;
 import javafx.event.*;
 import java.util.ArrayList;
-import  javafx.scene.paint.*;
-import  javafx.scene.shape.*;
 
 public class CalculatriceV3 extends Application {
 
@@ -19,7 +16,8 @@ public class CalculatriceV3 extends Application {
 
   public void start(Stage Plateau) {
     Plateau.setTitle("CalculatriceV3");
-
+    int largeur=150;
+    int hauteur=200;
     GridPane Agencement=new GridPane();
     Agencement.setAlignment(Pos.CENTER);
     Agencement.setHgap(10);
@@ -103,7 +101,7 @@ public class CalculatriceV3 extends Application {
     touche.add(sep,1,0);
     touche.add(op,2,0);
     Agencement.add(touche,0,2);
-    Scene Scene_Principale = new Scene(Agencement, 150, 200);
+    Scene Scene_Principale = new Scene(Agencement, largeur, hauteur);
 
     Scene_Principale.addEventHandler(ActionEvent.ACTION, new EventHandler<ActionEvent>() {
       public void handle(ActionEvent Evenement) {
