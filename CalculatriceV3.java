@@ -17,8 +17,10 @@ public class CalculatriceV3 extends Application {
   public void start(Stage Plateau) {
     Plateau.setTitle("CalculatriceV3");
     int largeur=150;
-    int hauteur=200;
+    int hauteur=200; 
     GridPane Agencement=new GridPane();
+    Agencement.setAlignment(Pos.CENTER);
+    Agencement.setHgap(10);
     Agencement.setAlignment(Pos.CENTER);
     Agencement.setHgap(10);
 
